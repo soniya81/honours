@@ -23,11 +23,8 @@ conda activate copyvae
 
 export PYTHONPATH="${PYTHONPATH:-}:/scratch/user/s4881477/projects"
 
-which python3
-
 /home/s4881477/miniconda3/envs/copyvae/bin/python3 "/$TMPDIR/copyvae/cvae_array.py" \
     --h5ad "/QRISdata/Q5935/data/Lambo/h5ad/updated_AML5_DX_raw.h5ad" \
     --cell_cycle_gene_list "/scratch/user/s4881477/projects/copyvae/data/Macosko_cell_cycle_genes.txt" \
-    --outdir "scratch/temp/28481666/copyvae/AML5_DX"
+    --outdir "/$TMPDIR/copyvae/AML5_DX"
 
-echo "[$(date)] Completed CopyVAE for AML5_DX"
