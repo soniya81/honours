@@ -1,4 +1,4 @@
-# Honours
+#  BIOM6100 Honours Projec
 
 As part of my BIOM6100 Honours Project, benchmarking of five representative scCNV tools was done as listed below.
 - Infercnv
